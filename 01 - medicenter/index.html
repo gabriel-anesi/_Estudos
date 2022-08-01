@@ -1,0 +1,333 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <title>Medicenter</title>
+    <link rel="shortcut icon" href="../01 - medicenter/images/favicon.ico">
+    <script type="text/javascript">
+    window.onload = function () {
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none'
+            } else {
+                document.querySelector(".menu nav ul").style.display = 'flex'
+            }
+            window.addEventListener('resize', function () {
+        var largura = window.innerWidth;
+
+        if (largura > 600)
+           document.querySelector(".menu nav ul").removeAttribute('style');
+        });
+        });
+    };
+
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""> <img src="../01 - medicenter/images/logo.jpg"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">PAGES</a></li>
+                        <li><a href="">DEPARTMENTS</a></li>
+                        <li><a href="">TIMETABLE</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsible template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title"> Emergency case</div>
+                    <div class="banner_desc">If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</div>
+                    <a href="">Read more &#8594</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title"> Doctor's timetable</div>
+                    <div class="banner_desc">Here at medicenter we have individual doctor's list. Click read more below to see services and current timetable for our doctors.</div>
+                    <a href="">Read more &#8594</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    <div class="banner_text">Monday-Friday
+                        <div class="banner_hours">8:00 - 17:00</div>
+                    </div>
+                    <div class="banner_text">Saturday
+                        <div class="banner_hours">9:30 - 17:30</div>
+                    </div>
+                    <div class="banner_text">Sunday
+                        <div class="banner_hours">9:30 - 15:00</div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>    
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest news</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="../01 - medicenter/images/Doctorandpatient.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                <strong>Lorem ipsum dolor sit amat velum</strong> 
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="../01 - medicenter/images/Doctorandpatient.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                <strong>Lorem ipsum dolor sit amat velum.</strong> 
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="../01 - medicenter/images/Doctorandpatient.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                <strong>Lorem ipsum dolor sit amat velum</strong> 
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="../01 - medicenter/images/Doctorandpatient.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                <strong>Lorem ipsum dolor sit amat velum</strong> 
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            </a>
+                        </article>
+
+                    </div>
+            </section>
+            <aside>
+           
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                       
+                        <div class="widget_departments"><a href="#"><h4>Emergency</h4></a></div>
+                        <div class="widget_departments"><a href="#"><h4>Evaluation</h4></a></div>
+                        <div class="widget_departments"><a href="#"><h4>Management</h4></a></div>
+                        <div class="widget_departments"><a href="#"><h4>Clinic</h4></a></div>
+                        <div class="widget_departments"><a href="#"><h4>Human Resources</h4></a></div>
+                        <div class="widget_departments"><a href="#"><h4>Supplies</h4></a></div>
+                       
+                    </div>
+                </div>
+    
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"><strong>Make An Appointment</strong></div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="widget_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quas voluptates velit corporis error necessitatibus laudantium delectus.</div>
+                    </div>
+    
+                    <div class="widget_contacts">
+                       
+                        <address>
+                            <div class="contacts_phones">
+                                <div class="phones">
+                                    <img src="../01 - medicenter/images/icons8-telephone-64.png" alt="logo_phone">
+                                    <p>by phone: <strong>1-800-643-4300</strong></p>
+                                </div>
+                            </div>
+                            <div class="contacts_email">
+                                <div class="email">
+                                    <img src="../01 - medicenter/images/icons8-secured-letter-64.png" alt="logo_email">
+                                    <p>by e-mail: <a href="mailto:google@gmail.com">google@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contacts_page">
+                                <div class="page">
+                                    <img src="../01 - medicenter/images/icons8-document-64.png" alt="logo_page">
+                                    <p>or <strong>fill on the form</strong> on our contact page</p>
+                                </div>
+                            </div>
+                        </address>
+    
+                        </div>
+                    </div>
+                </div>
+    
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm1">
+                    <a href="">
+                        <div class="footer_menu_title">Health Insurance</div>
+                        <div class="footer_menu_desc">Here in medicenter we have individual &#8594</div>
+                    </a>
+                </div>
+                <div class="fm2">
+                    <a href="">
+                        <div class="footer_menu_title">Medical Records</div>
+                        <div class="footer_menu_desc">Here in medicenter we have individual &#8594</div>
+                        
+                        
+                    </a>
+                </div>
+                <div class="fm3">
+                    <a href="">
+                        <div class="footer_menu_title">Online Bill Pay</div>
+                        <div class="footer_menu_desc">Here in medicenter we have individual &#8594</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_body">
+                           <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_body_text">
+                                Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.                     
+                            </div>
+                            <br>
+                            <div class="widget_body_address">
+                            Medicenter Clinic <br>
+                            33 Farlane Street <br>
+                            Keilor East <br>
+                            VIC 3033, Australia
+                            </div>
+                            <div class="widget_body_contacts">
+                            +123 655 655 <br>
+                            +123 755 755
+                            <a href="mailto:medicenter@mail.com">medicenter@mail.com</a>    
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="social_logo">
+                                <div class="icon1"><a href="#"><img src="../01 - medicenter/images/fb_icon_325x325.png" alt="facebook"></a></div>
+                                <div class="icon2"><a href="#"><img src="../01 - medicenter/images/Tumblr.png" alt="Tumblr"></a></div>
+                                <div class="icon3"><a href="#"><img src="../01 - medicenter/images/Instagram-Icon.png" alt="Instagram"></a></div>
+                                <div class="icon4"><a href="#"><img src="../01 - medicenter/images/Twitter.png" alt="twitter"></a></div>
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest posts</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                           <div class="post1">&#8594 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                                <div class="time_posted">9 months ago</div>
+                           <div class="post2">&#8594 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div> 
+                                <div class="time_posted">10 months ago</div>
+                           <div class="post3">&#8594 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>                        
+                                <div class="time_posted">about a year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="tweet">&#8594 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                                <div class="time_posted">9 months ago</div>
+                            <div class="tweet">&#8594 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div> 
+                                <div class="time_posted">10 months ago</div>
+                            <div class="tweet">&#8594 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>                        
+                                <div class="time_posted">about a year ago</div>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                &copy Copyright - Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
