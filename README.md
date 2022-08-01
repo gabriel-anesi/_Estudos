@@ -1,3 +1,5 @@
-Projetos desenvolvidos no curso B7Web.
+Repositório sobre os projetos desenvolvidos no curso B7Web.
 
-01 - Medicenter
+Projeto 01 - Medicenter
+
+https://gabriel-anesi.github.io/_Estudos/01%20-%20medicenter
