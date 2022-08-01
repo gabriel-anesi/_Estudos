@@ -12,3 +12,4 @@ Projeto 01 - Medicenter
 <hr>
 Projeto 02 - Página de tributo
 <hr>
+<a href="https://gabriel-anesi.github.io/_Estudos/02%20-%20P%C3%A1gina%20de%20tributo%20Ayrton%20Senna">Acessar página</a>
