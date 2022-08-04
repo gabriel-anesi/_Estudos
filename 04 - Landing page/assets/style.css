@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+}
+
+#secao {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo_secao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 15vh;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #9d9d9d;
+    font-size: 20px;
+}
+
+.cabecalho a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+
+.texto_descricao .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda {
+    display: flex;
+    width: 230px;
+    margin: -80px;
+}
+
+.titulo_descricao {
+    text-align: center;
+    font-weight: 600;
+}
+.texto_descricao {
+    text-align: justify;
+    margin: 60px -25px;
+    font-weight: 400;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao h2 a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: #165cce;
+    border-radius: 50px;
+    padding: 20px;
+    border: none;
+    box-shadow: 3px 4px 8px black;
+}
+.botao h2 a:hover {
+    background-color: #4a7fd4;
+}
+
+.direita img {
+    height: 60vh;
+}
