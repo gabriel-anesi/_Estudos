@@ -31,3 +31,9 @@ Projeto 04 - Landing page
 <hr>
 Projeto 05 - 
 <hr>
+<a href="https://gabriel-anesi.github.io/_Estudos/05%20-%20Clone%20do%20Google">Acessar página</a>
+<br></br>
+<img src="https://github.com/gabriel-anesi/_Estudos/blob/master/05%20-%20Clone%20do%20Google/Images/imagem%20site.png" height="500px">
+<hr>
+Projeto 06 - 
+<hr>
