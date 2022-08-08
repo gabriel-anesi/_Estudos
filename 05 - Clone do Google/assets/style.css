@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+.imagens_cabecalho {
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho .imagem1 {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+.cabecalho .imagem2 {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.texto_cabecalho a {
+    padding: 5px;
+    text-decoration: none;
+    color: #504f4f;
+    font-size: 12px;
+    font-weight:lighter ;
+}
+.Google_icon img {
+    height: 150px;
+}
+#campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo_pesquisa input {
+    width: 510px;
+    outline: none;
+    border: 1px solid #d1d3d4;
+    border-radius: 40px;
+    padding: 14px 40px;
+}
+
+.campo_pesquisa :hover {
+    box-shadow: 1px 1px 1px 1px #d1d3d4;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icone1 {
+    flex-grow: 0;
+    margin-top: -40px;
+    margin-left: 15px;
+    margin-right: 470px;
+}
+.icone2 {
+    flex-grow: 0;
+    margin-top: -43px;
+    margin-left: 15px;
+}
+.icone3 {
+    flex-grow: 1;
+    margin-top: -40px;
+    margin-left: 15px;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+    padding: 3vh;
+}
+.botoes button {
+    border: 10px solid #f8f9fa;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #504f4f;
+}
+
+.botoes :hover {
+    box-shadow: 1px 1px 1px 1px #d1d3d4;
+}
+
+.texto_idioma {
+    font-size: 10px;
+    color: #504f4f;
+}
+.texto_idioma a {
+    text-decoration: none;
+    color: rgb(35, 35, 161);
+    font-weight: 500;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 365px;
+    margin-top: 20vh;
+}
+
+
+
+
+.rodape {
+    background-color: #f2f2f2;
+    margin-top: 212px;
+}
+
+
+.rodape h2 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-weight: 500;
+}
+
+.texto_rodape {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-size: 14px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+    height: 20px;
+}
+.container a {
+    text-decoration: none;
+    color: #70757a;    
+}
+
+
+@media (max-width:720px) {
+    .rodape {
+        margin-top: 190px;
+    }
+    .texto_rodape {
+        display:block;    
+    }
+}
+@media (max-width:610px) {
+    .cabecalho {
+        display: flex;
+
+    }
+
+    .campo_pesquisa input {
+        width: 370px;
+        margin-left: 5vw;
+    }
+    .icone1 {
+        margin-left: 40px;
+        margin-right: 330px;
+    }
+
+}
+
+@media (max-width:480px) {
+        
+.campo_pesquisa input{
+    width: 300px;
+    margin-left: 5vw;
+}
+
+    .icone2 {
+        margin-left: -60px;
+    }
+
+    .rodape {
+        margin-top: 150px;
+    }
+
+    .container {
+        height: 50px;
+}
+}
+
+@media (max-width:410px) {
+        
+    .cabecalho {
+        display: flex;
+
+    }
+
+    .campo_pesquisa input {
+        width: 50vw;
+        margin-left: 5vw;
+    }
+
+    .icone1 {
+        margin-left: 40px;
+        margin-right: 130px;
+    }
+    .icone2 {
+        margin-left: 30px;
+    }
+
+    .rodape {
+        margin-top: 60px;
+    }
+
+    .container {
+        height: 180px;
+    }
+    .texto_rodape {
+        padding: 15px 20px;
+        font-size: 15px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media (max-width:360px) {
+    .cabecalho {
+        display: flex;
+
+    }
+
+    .campo_pesquisa input {
+        width: 50vw;
+        margin-left: 7vw;
+    }
+
+    .icone1 {
+        margin-left: 30px;
+        margin-right: 130px;
+    }
+    .icone2 {
+        margin-left: 15px;
+    }
+
+    .rodape {
+        margin-top: 60px;
+    }
+
+    .container {
+        height: 100px;
+    }
+    .texto_rodape {
+        padding: 15px 20px;
+        font-size: 15px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+}
