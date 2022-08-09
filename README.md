@@ -37,7 +37,7 @@ Projeto 05 - Clone do Google
 <hr>
 Projeto 06 - Clone da página de resultados do Google
 <hr>
-<a href="https://gabriel-anesi.github.io/_Estudos/06%20-%20Clone%20resultados%20Google">Acessar página</a>
+<a href="https://gabriel-anesi.github.io/_Estudos/06%20-%20Clone%20resultados%20Google">Acessar página</a> 
 <br></br>
 <img src="https://github.com/gabriel-anesi/_Estudos/blob/master/06%20-%20Clone%20resultados%20Google/images/Imagem%20site.png" height="500px">
 <hr>
