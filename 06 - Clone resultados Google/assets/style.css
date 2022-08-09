@@ -139,12 +139,15 @@ body {
 
 .pesquisa1, .pesquisa2, .pesquisa3, .pesquisa4, .pesquisa5, .pesquisa6, .pesquisa7, .pesquisa8 {
     display: flex;
-
-    padding: 15px 40px;
-    gap: 10px;
+    padding: 11px 30px;
     background-color: #f1f3f4;
     border: 1px solid #f1f3f4;
-    border-radius: 30px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.lupa_pesquisa1, .lupa_pesquisa2, .lupa_pesquisa3, .lupa_pesquisa4, .lupa_pesquisa5, .lupa_pesquisa6, .lupa_pesquisa7, .lupa_pesquisa8 {
+    margin-right: 10px;
 }
 
 .pesquisas_relacionadas {
@@ -154,6 +157,10 @@ body {
 .pesquisas_relacionadas a {
     text-decoration: none;
     color: black;
+}
+
+.pesquisas_relacionadas img {
+    margin: -4px;
 }
 
 .logo_baixo {
@@ -182,7 +189,7 @@ body {
 }
 
 .rodape {
-    margin-top: 78px;
+    margin-top: 75px;
     margin-bottom: -20px;
 }
 
