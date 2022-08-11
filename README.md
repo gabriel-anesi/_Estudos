@@ -45,6 +45,7 @@ Projeto 07 - Tabela
 <hr>
 <a href="https://gabriel-anesi.github.io/_Estudos/07%20-%20Tabela%20zebra">Acessar página</a>
 <br></br>
-<img src="https://github.com/gabriel-anesi/_Estudos/blob/master/07%20-%20Tabela%20zebra/Images/Imagem.png" height="500px">
+<img src="https://github.com/gabriel-anesi/_Estudos/blob/master/07%20-%20Tabela%20zebra/Images/Imagem.png" height="300px">
 <hr>
 Projeto 08 - 
+<hr>
