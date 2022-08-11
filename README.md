@@ -41,3 +41,10 @@ Projeto 06 - Clone da página de resultados do Google
 <br></br>
 <img src="https://github.com/gabriel-anesi/_Estudos/blob/master/06%20-%20Clone%20resultados%20Google/images/Imagem%20site.png" height="500px">
 <hr>
+Projeto 07 - Tabela
+<hr>
+<a href="https://gabriel-anesi.github.io/_Estudos/07%20-%20Tabela%20zebra">Acessar página</a>
+<br></br>
+<img src="https://github.com/gabriel-anesi/_Estudos/blob/master/07%20-%20Tabela%20zebra/Images/Imagem.png" height="500px">
+<hr>
+Projeto 08 - 
