@@ -53,5 +53,9 @@ Projeto 08 - Botão CSS
 <br></br>
 <img src="https://github.com/gabriel-anesi/_Estudos/blob/master/08%20-%20Botão%20CSS3/Imagem%20site.png" height="300px">
 <hr>
-Projeto 09 - 
+Projeto 09 - Selo de qualidade
+<hr>
+<a href="https://gabriel-anesi.github.io/_Estudos/09%20-%20Tarja%20de%20canto">Acessar página</a>
+<br></br>
+<img src="https://github.com/gabriel-anesi/_Estudos/blob/master/09%20-%20Tarja%20de%20canto/Imagem.png" height="300px">
 <hr>
