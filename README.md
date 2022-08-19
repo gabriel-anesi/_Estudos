@@ -59,3 +59,9 @@ Projeto 09 - Selo de qualidade
 <br></br>
 <img src="https://github.com/gabriel-anesi/_Estudos/blob/master/09%20-%20Tarja%20de%20canto/Imagem.png" height="300px">
 <hr>
+Projeto 10 - Projeto Awax
+<hr>
+<a href="https://gabriel-anesi.github.io/_Estudos/10%20-%20Projeto%20Awax">Acessar página</a>
+<br></br>
+<img src="https://github.com/gabriel-anesi/_Estudos/blob/master/10%20-%20Projeto%20Awax/Assets/Images/imagem%20site.png" height="300px">
+<hr>
