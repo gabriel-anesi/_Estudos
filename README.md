@@ -71,3 +71,9 @@ Projeto 11 - Projeto Starbucks
 <br></br>
 <img src="https://github.com/gabriel-anesi/_Estudos/blob/master/11%20-%20Starbucks/assets/media/imagem%20site.png" height="300px">
 <hr>
+Projeto 12 - Portfólio
+<hr>
+<a href="https://gabriel-anesi.github.io/_Estudos/12%20-%20Portfolio">Acessar página</a>
+<br></br>
+<img src="https://github.com/gabriel-anesi/_Estudos/blob/master/12%20-%20Portfolio/assets/images/imagem%20do%20site.png" height="300px">
+<hr>
