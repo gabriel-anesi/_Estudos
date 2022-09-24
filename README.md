@@ -1,4 +1,4 @@
-<h3 align="center" dir="auto">Repositório sobre os projetos desenvolvidos no curso B7Web.
+<h3 align="center" dir="auto">Repositório sobre os projetos desenvolvidos no curso B7Web, no módulo HTML5/CSS3.
 <br></br>
 <hr>
 Projeto 01 - Medicenter
