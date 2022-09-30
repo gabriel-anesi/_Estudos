@@ -4,7 +4,10 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
+
 header {
     display: flex;
     justify-content: center;
@@ -24,9 +27,11 @@ header {
     display: flex;
     align-items: center;
 }
-#sidebar .img {
-    height: 100px;    
+#sidebar {
+    display: flex;
+    justify-content: center;
 }
+
 #content {
     margin: -18px;
     margin-left: 25px;
@@ -46,7 +51,6 @@ nav ul {
 }
 nav a {
     display: block; /*alterar áreas dos links */
-    padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
@@ -99,7 +103,16 @@ flex-direction: column;
 }
 
 #geral {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 40px;
+    
+}
+
+#estatisticas {
+    display: flex;
+    flex-direction: column;
 }
 
 #geral aside {
@@ -129,8 +142,11 @@ flex-direction: column;
     text-align: justify;
 }
 .widget_body img {
-    width: auto;
     height: 270px;
+}
+
+.widget p {
+    margin-top: 6vh;
 }
 
 .icone_lista {
@@ -200,10 +216,67 @@ footer .widget_title_text {
     text-align: center;
     margin-top: 12px;
     margin-bottom: -5px;
-
 }
 
-@media (max-width:660px) {
+.footer_copy a {
+    color: #5c5c5c;
+}
+
+@media (max-width:900px) {
+    
+    .container .logo {
+        margin-right: 8vw;
+    }
+    
+    #container3, #container4 {
+        margin-top: -40vh;        
+    }
+
+    #estatisticas {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #estatisticas img {
+        height: 20vh;
+
+    }
+
+    #foto--estatisticas {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    #foto--imola {
+        display: inline-flex;
+        justify-content: center;
+        height: 20vh;
+    }
+
+
+    #foto--acidente {
+        height: 20vh;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .lista_de_estatisticas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .widget_body  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     .banner_headline {
         padding: 10px;
         
@@ -249,9 +322,16 @@ footer .widget_title_text {
         display: none;
         position: absolute;
         left: 0;
-        width: 100%;
-        background-color: white;
+        height: 26vh;
+        width: 80vw;
+        background-color: rgba(0, 0, 0, 0.8); 
+        color: rgba(0, 0, 0, 0.8);
     }
+
+    nav ul a {
+        color: #1076d4;
+    }
+
     header {
         height: auto;
     }

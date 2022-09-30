@@ -2,33 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=0">
-    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="../02 - Pagina de tributo Ayrton Senna/assets/css/style.css">
     <title>Tributo a Ayrton Senna</title>
-    <link rel="shortcut icon" href="../../7 - Página de tributo Ayrton Senna/02 - Página de tributo Ayrton Senna/images/favicon.ico">
-    <script type="text/javascript">
-    window.onload = function () {
-        document.querySelector(".menuMobile").addEventListener("click", function(){
-            if(document.querySelector(".menu nav ul").style.display == 'flex') {
-                document.querySelector(".menu nav ul").style.display = 'none'
-            } else {
-                document.querySelector(".menu nav ul").style.display = 'flex'
-            }
-            window.addEventListener('resize', function () {
-        var largura = window.innerWidth;
-
-        if (largura > 600)
-           document.querySelector(".menu nav ul").removeAttribute('style');
-        });
-        });
-    };
-    </script>
-
+    <link rel="shortcut icon" href="../02 - Pagina de tributo Ayrton Senna/images/favicon.ico">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <a href=""> <img src="../02 - Página de tributo Ayrton Senna/images/logo_ayrton.jpg"></a>
+                <a href=""> <img src="../02 - Pagina de tributo Ayrton Senna/images/logo_ayrton.jpg"></a>
             </div>
             <div class="menu">
                 <nav>
@@ -38,10 +20,10 @@
                         <div class="mm_line"></div>
                     </div>
                     <ul>
-                        <li><a href="">O PILOTO</a></li>
-                        <li><a href="">ESTATÍSTICAS</a></li>
-                        <li><a href="">ACIDENTE</a></li>
-                        <li><a href="">CRÉDITOS</a></li>
+                        <li><a href="#" onclick="scrollPiloto()">O PILOTO</a></li>
+                        <li><a href="#" onclick="scrollEstatisticas()">ESTATÍSTICAS</a></li>
+                        <li><a href="#" onclick="scrollAcidente()">ACIDENTE</a></li>
+                        <li><a href="#" onclick="scrollCreditos()">CRÉDITOS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -57,16 +39,16 @@
     </section>
 
     <section id="geral">
-        <div class="container">
+        <div class="container" id="container3">
             <section>
                 <div class="widget">
                     <div class="widget_title">
-                        <div class="widget_title_text">O piloto</div>
+                        <div class="widget_title_text" id="piloto">O piloto</div>
                         <div class="widget_title_bar"></div>
                     </div>
                     <div class="widget_body">
                         <div id="sidebar">
-                        <img src="../02 - Página de tributo Ayrton Senna/images/ft1Ayrton.jpg" alt="">
+                        <img id="foto--piloto" src="../02 - Pagina de tributo Ayrton Senna/images/ft1Ayrton.jpg">
                         </div>
                         <div id="content">
                         <p>
@@ -82,39 +64,45 @@ Sua morte, assim como o funeral e velório, provocou uma das maiores comoções 
     </section>
 
     <section id="geral">
+        <div class="container" id="estatisticas">
                 <div class="widget">
                     <div class="widget_title">
                         <div class="widget_title_text">Estatísticas</div>
                         <div class="widget_title_bar"></div>
                     </div>
                     <div class="stats">
-                               <img src="../02 - Página de tributo Ayrton Senna/images/Ayrton-Senna-680x350.jpg" alt="">                     
+                            <div id="foto--estatisticas">
+                               <img src="../02 - Pagina de tributo Ayrton Senna/images/Ayrton-Senna-680x350.jpg" alt="">                     
+                            </div>
                         <div class="lista_de_estatisticas">
                         <p>
                             <ul>                  
-                                <li><img src="../02 - Página de tributo Ayrton Senna/images/trofeu.png"  style="height: 18px"><strong>161</strong> GPS DISPUTADOS<br><br></li>
-                                <li><img src="../02 - Página de tributo Ayrton Senna/images/podio.png" style="height:18px"> <strong>65</strong> POLE POSITIONS <br><br></li>
-                                <li><img src="../02 - Página de tributo Ayrton Senna/images/bandeira-de-chegada.png" style="height:18px"> <strong>41</strong> VITÓRIAS <br><br></li>
-                                <li><img src="../02 - Página de tributo Ayrton Senna/images/primeiro-lugar.png" style="height:18px"> <strong>2982</strong> VOLTAS NA LIDERANÇA <br><br></li>
-                                <li><img src="../02 - Página de tributo Ayrton Senna/images/cronometro.png" style="height:18px"> <strong>19</strong> VOLTAS MAIS RÁPIDAS <br><br></li>
-                                <li><img src="../02 - Página de tributo Ayrton Senna/images/trofeu.png"  style="height: 18px"><strong>3x</strong> CAMPEÃO MUNDIAL <br><br></li>
+                                <li><img src="../02 - Pagina de tributo Ayrton Senna/images/trofeu.png"  style="height: 18px"><strong>161</strong> GPS DISPUTADOS<br><br></li>
+                                <li><img src="../02 - Pagina de tributo Ayrton Senna/images/podio.png" style="height:18px"> <strong>65</strong> POLE POSITIONS <br><br></li>
+                                <li><img src="../02 - Pagina de tributo Ayrton Senna/images/bandeira-de-chegada.png" style="height:18px"> <strong>41</strong> VITÓRIAS <br><br></li>
+                                <li><img src="../02 - Pagina de tributo Ayrton Senna/images/primeiro-lugar.png" style="height:18px"> <strong>2982</strong> VOLTAS NA LIDERANÇA <br><br></li>
+                                <li><img src="../02 - Pagina de tributo Ayrton Senna/images/cronometro.png" style="height:18px"> <strong>19</strong> VOLTAS MAIS RÁPIDAS <br><br></li>
+                                <li><img src="../02 - Pagina de tributo Ayrton Senna/images/trofeu.png"  style="height: 18px"><strong>3x</strong> CAMPEÃO MUNDIAL <br><br></li>
                             </ul>      
                         </p>
                         </div>      
                     </div>             
                 </div> 
+        </div>
     </section>
 
     <section id="geral">
-        <div class="container">
+        <div class="container" id="container4">
             <section>
                 <div class="widget">
                     <div class="widget_title">
-                        <div class="widget_title_text">O acidente</div>
+                        <div class="widget_title_text" id="acidente">O acidente</div>
                         <div class="widget_title_bar"></div>
                     </div>
                     <div class="widget_body">
-                    <img src="../02 - Página de tributo Ayrton Senna/images/acidente.jpg" alt="Acidente fatal de Senna">
+                        <div id="foto--imola">
+                    <img id="foto--acidente" src="../02 - Pagina de tributo Ayrton Senna/images/acidente.jpg" alt="Acidente fatal de Senna">
+                </div>
                     <div id="content">
                         <p>
 A temporada de 1994 não começou bem para Ayrton Senna. Mesmo conquistando a pole position nas duas primeiras corridas, em nenhuma delas ele conseguiu concluir o percurso. <br><br>
@@ -131,14 +119,15 @@ Na sétima volta, em uma curva de alta velocidade conhecida como Tamburello, Sen
 
     <footer>
         <div class="container flexColumn">
-            <div class="referencias">Referências:
+            <div class="referencias" id="referencias">Referências:
             <p><a href="https://www.ayrtonsenna.com.br/">Ayrton Senna - Site oficial</a></p>
             <p><a href="https://pt.wikipedia.org/wiki/Ayrton_Senna">Wikipédia</a></p> 
         </div>
             <div class="footer_copy">
-                &copy Copyright - Todos os direitos reservados.
+                Copyright - <a href="https://github.com/gabriel-anesi/gabriel-anesi" target="_blank">Gabriel Anesi</a>
             </div>
         </div>
     </footer>
+    <script src="../02 - Pagina de tributo Ayrton Senna/assets/js/script.js"></script>
 </body>
 </html>
